@@ -5,10 +5,11 @@
 // make (ex: Chevy, Ford, Toyota), model (ex: Camero, F150, Rav4), and year.
 
 class car {
-    constructor (make, model, year) {
-        this.make = Ford;
-        this.model = Taurus;
+    constructor(make, model, year) {
+        this.make = ford;
+        this.model = taurus;
         this.year = 2004;
+
     }
 }
 
@@ -16,9 +17,9 @@ class car {
 // 2. Car should also include a method, .describe which simply returns 
 // "This is a YEAR MODEL, made by MAKE." replacing YEAR, MODEL and MAKE with the correct information from the Car object. 
 
-const fordTaurus = newCar("Ford", "Taurus", "2004");
-fordTaurus.describe //This is a 2004 Taurus, made by Ford.
-console.log(fordTurus.describe)
+
+
+
 
 // 3. Create 4 cars (with any make, model and year) and push them all to a new array called allCars
 
