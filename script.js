@@ -16,6 +16,10 @@ class car {
 // 2. Car should also include a method, .describe which simply returns 
 // "This is a YEAR MODEL, made by MAKE." replacing YEAR, MODEL and MAKE with the correct information from the Car object. 
 
+const fordTaurus = newCar("Ford", "Taurus", "2004");
+fordTaurus.describe //This is a 2004 Taurus, made by Ford.
+console.log(fordTurus.describe)
+
 // 3. Create 4 cars (with any make, model and year) and push them all to a new array called allCars
 
 // 4. Write a function with a single parameter car that, when called, will console.log the Car.describe method for the car used in the parameter. 
