@@ -12,6 +12,7 @@ class car {
 
     }
 }
+console.log(car);
 
 
 // 2. Car should also include a method, .describe which simply returns 
